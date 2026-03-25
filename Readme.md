@@ -144,9 +144,11 @@ POST /upload
 
 > Add images inside `/screenshots` folder
 
-| Upload Page | Result Page |
-|------------|------------|
-| ![](https://drive.google.com/uc?export=view&id=1Nxli2LCnyvn4EEjk-WoK_l-5e7kD3ZcJ) | ![](https://drive.google.com/uc?export=view&id=1EuFhzWezCaKD_8UG92NYDU9C0fL-1p6F) |
+## 📸 Screenshots
+
+<img src="https://drive.google.com/uc?export=view&id=1Nxli2LCnyvn4EEjk-WoK_l-5e7kD3ZcJ" width="700"/>
+
+<img src="https://drive.google.com/uc?export=view&id=1EuFhzWezCaKD_8UG92NYDU9C0fL-1p6F" width="700"/>
 
 ## 🚀 Deployment
 
