@@ -1,0 +1,145 @@
+/* Container card */
+.result-card {
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 500px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Title */
+.result-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Main prediction */
+.main-prediction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+/* Category badge */
+.category-badge {
+  background: #6366f1;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Confidence */
+.confidence-tag {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Top 3 section */
+.top3-label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+/* Each row */
+.top3-row {
+  display: grid;
+  grid-template-columns: 30px 1fr 2fr 50px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* Rank */
+.rank {
+  font-weight: bold;
+  color: #888;
+}
+
+/* Label */
+.top3-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Progress bar track */
+.bar-track {
+  width: 100%;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Progress fill */
+.bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.6s ease;
+}
+
+/* Confidence text */
+.top3-conf {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: right;
+  color: #555;
+}
+
+/* Warning */
+.low-conf-warn {
+  margin-top: 15px;
+  padding: 10px;
+  background: #fff7ed;
+  color: #b45309;
+  border-left: 4px solid #f59e0b;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .result-card {
+    padding: 20px;
+  }
+
+  .top3-row {
+    grid-template-columns: 25px 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .bar-track {
+    grid-column: span 2;
+  }
+
+  .top3-conf {
+    grid-column: span 2;
+    text-align: left;
+  }
+}
