@@ -1,11 +1,3 @@
-Got it — the issue is **GitHub README doesn’t support those `id="..."` code blocks or fancy formatting I added earlier**.
-
-So here is a **✅ 100% COPY-PASTE READY (GitHub Compatible) PREMIUM README**
-👉 No broken formatting
-👉 Clean markdown
-👉 Works perfectly on GitHub
-
----
 
 # 🚀 Resume Analyzer AI — Smart Career Prediction System
 
