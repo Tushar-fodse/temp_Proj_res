@@ -159,9 +159,9 @@ POST /upload
 
 ## 📸 Screenshots
 
-<img src="" width="700"/>
+<img src="Screenshot 2026-03-26 032650.png" width="700"/>
 
-<img src="https://drive.google.com/uc?export=view&id=1EuFhzWezCaKD_8UG92NYDU9C0fL-1p6F" width="700"/>
+<a href="Tushar Fodse Resume (1).pdf" target="_blank">View Resume</a>
 
 ## 🚀 Deployment
 
