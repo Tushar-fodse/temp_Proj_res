@@ -10,6 +10,7 @@
 
 ---
 
+
 ## 🌟 Overview
 
 > An AI-powered web application that analyzes resumes and predicts suitable job roles with confidence scores.
@@ -57,12 +58,32 @@ Upload Resume → Backend → Text Extraction → ML Model → Prediction → Re
 
 ## 📂 Project Structure
 
+## 🧠 ML Model Setup (IMPORTANT)
+
+⚠️ The trained model files are not included in this repository due to GitHub size limits.
+
+### 📥 Download Model Files
+
+Download the required files from the links below:
+
+- 🔗 Resume Classifier Model  
+  https://drive.google.com/file/d/1JHTaHlPICB9CrN3TsTrwTe09Ow0pYteR/view?usp=drive_link
+
+- 🔗 Label Encoder  
+  https://drive.google.com/file/d/1ClQ1Pi9nMhkuLmxMKJHn0P22O2tS72Ek/view?usp=drive_link
+
+---
+
+### 📁 Place Files in This Directory
+
+After downloading, place both files inside:
+
 ```
 temp_Proj_res/
 │
 ├── client/           # React Frontend
 ├── server/           # Backend API
-├── model/            # ML Model Files
+├── model/             # (Not included, download separately)
 ├── uploads/          # Uploaded Resumes
 ├── screenshots/      # Images
 └── README.md
